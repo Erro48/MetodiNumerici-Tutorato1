@@ -1,4 +1,4 @@
-function [x, xk, it] = bisezione(f,a, b, tolx)
+function [x, xk, it] = bisezione(f, a, b, tolx)
     fa = f(a);
     fb = f(b);
     if sign(fa) * sign(fb) >= 0
